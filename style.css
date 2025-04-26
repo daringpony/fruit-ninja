@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    cursor: url("images/sword.png"), nw-resize;
+    background-image: url(images/fruitninja.jpeg);
+  }
+  
+  #gameArena {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #score {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 28px;
+    color: white;
+  }
+  
+  .fruit {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-size: cover;
+  }
